@@ -2,9 +2,53 @@
 sidebar_position: 1
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Design Tokens
 
 Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.
+
+## Prototypes embedding
+
+<div className="row">
+  {/* Left Column */}
+  <div className="col col--6">
+    <iframe 
+  style={{ border: "none" }} 
+  width="390" 
+  height="924" 
+  src="https://embed.figma.com/proto/sgpxUkDc1WBiNukJqZKTx1/Untitled?page-id=8%3A6&node-id=8-334&node-type=canvas&viewport=896%2C713%2C1.52&scaling=scale-down&content-scaling=fixed&embed-host=share&chrome=0&embed-host=share" 
+  allowfullscreen
+></iframe>
+  </div>
+
+  {/* Right Column */}
+  <div className="col col--6">
+   <iframe 
+  style={{ border: "none" }} 
+  width="390" 
+  height="924" 
+  src="https://embed.figma.com/proto/sgpxUkDc1WBiNukJqZKTx1/Untitled?page-id=8%3A6&node-id=8-334&node-type=canvas&viewport=896%2C713%2C1.52&scaling=scale-down&content-scaling=fixed&embed-host=share&chrome=0&embed-host=share" 
+  allowfullscreen
+></iframe>
+  </div>
+</div>
+
+## Tabbing navigation
+
+<Tabs>
+<TabItem value="npm" label="npm" default>
+bash
+npm install --save raw-loader
+</TabItem> 
+<TabItem value="yarn" label="Yarn">
+yarn add raw-loader
+</TabItem> 
+<TabItem value="pnpm" label="pnpm">
+pnpm add raw-loader
+</TabItem>
+</Tabs>
 
 ## Create a docs version
 
